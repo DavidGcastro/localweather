@@ -1,5 +1,6 @@
-body{
-    background: red;
-    font-size: 80px;
-    
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #9D7E91;
+
 }
