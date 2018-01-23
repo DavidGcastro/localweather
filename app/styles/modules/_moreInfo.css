@@ -1,0 +1,22 @@
+.moreInfo {
+
+    border: 0;
+    margin-top: 50px;
+    padding: 0;
+
+    #max,
+    #min,
+    #wind {
+        width: 32%;
+        display: inline-block;
+
+    }
+
+    #min {
+        border-left: 2px black solid;
+        border-right: 2px black solid;
+    }
+
+
+
+}
