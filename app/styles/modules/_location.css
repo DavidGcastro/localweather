@@ -1,0 +1,51 @@
+.location {
+    z-index: 1000;
+    min-height: 100vh;
+    position: relative;
+
+
+    &--content {
+
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        h1 {
+            font-size: 5vh;
+            margin: 0;
+        }
+
+
+        &--weatherIcon {
+            width: 30vh;
+
+            display: inline-block;
+        }
+
+
+        &--weatherText {
+            margin: 0;
+            font-size: 4vh;
+
+
+
+        }
+
+
+        &--weatherTemp {
+            margin: 15px;
+            position: relative;
+            font-size: 4vh;
+
+
+
+        }
+
+
+    }
+
+
+}
