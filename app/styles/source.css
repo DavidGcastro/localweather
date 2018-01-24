@@ -1,3 +1,4 @@
 @import "/modules/_globals";
 @import "/modules/_location";
 @import "modules/_moreInfo";
+@import "modules/_mixins";
