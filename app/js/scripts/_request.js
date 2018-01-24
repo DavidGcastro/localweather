@@ -7,7 +7,6 @@ var windSpeed = document.getElementById("windSpeed");
 var weatherText = document.getElementById("weatherText");
 
 
-//what do we want to do, first arg is: do we want to recieve or send data, second is URL
 
 
 
@@ -23,6 +22,8 @@ function cords(latitude, longitude) {
     console.log(latitude);
     console.log(longitude);
     var ourRequest = new XMLHttpRequest();
+    //what do we want to do, first arg is: do we want to recieve or send data, second is URL
+
     ourRequest.open('GET', 'https://fcc-weather-api.glitch.me//api/current?lon=' + longitude + '&lat=' + latitude)
 
     ourRequest.send();
@@ -40,8 +41,8 @@ function cords(latitude, longitude) {
 
         } else {
             temp.innerHTML = (data.main.temp) + " C\xB0";
-            maxTemp.innerHTML = data.main.temp_max;
-            minTemp.innerHTML = data.main.temp_min;
+            maxTemp.innerHTML = data.main.temp_max + " C\xB0";
+            minTemp.innerHTML = data.main.temp_min + " C\xB0";
         }
 
         city.innerHTML = (data.name);
