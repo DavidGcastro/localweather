@@ -65,10 +65,10 @@ function cords(latitude, longitude) {
         }
 
         // add more icons here: 
-        //        if (data.weather[0].description == "") {
-        //            icon.src = "images/SVG/.svg";
-        //
-        //        }
+        if (data.weather[0].description == "overcast clouds") {
+            icon.src = "images/SVG/Cloud-Fog.svg";
+
+        }
         //        if (data.weather[0].description == "") {
         //            icon.src = "images/SVG/.svg";
         //
